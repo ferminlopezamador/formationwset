@@ -1,0 +1,152 @@
+html,
+body {
+    scroll-behavior: smooth;
+    background-color: #eceef0;
+    font-family: 'Work Sans', sans-serif;
+    color: #263238;
+}
+
+.bg-pink {
+    background-color: #e3115d;
+    color: white;
+}
+.bg-grey {
+    background-color: #263238;
+    color: white;
+}
+.txt-pink {
+    color:#e3115d;
+}
+.txt-white {
+    color:white;
+}
+header {
+    position: fixed;
+    z-index: 30;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-size: 1.4em;
+    line-height: 0.9em;
+}
+
+div.d-inline-flex svg {
+    height: 88%;
+    transition: all 0.5s ease;
+}
+
+div.d-inline-flex svg:hover {
+    color: #263238;
+}
+button svg {
+    width: 23px;
+    color: #d7dadc;
+}
+
+ul.menu {
+    list-style-type: none;
+}
+ul.menu li a svg {
+    height:15px;
+}
+ul.menu li a, ul.menu li a svg {
+    color: white;
+    font-weight: 300;
+    transition: all 0.5s ease;
+}
+a {
+    color: #e3115d;
+    transition: all 0.5s ease;
+}
+ul.menu li a:hover, ul.menu li a svg:hover, a:hover {
+    color: #263238;
+    text-decoration: none;
+}
+.intro {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 650px;
+}
+.intro article {
+    background-color: #ffffffc4;
+}
+.intro article {
+    text-align: center;
+}
+.intro article h2:first-of-type {
+    font-weight: 300;
+}
+.intro article h2:nth-of-type(2) {
+    font-weight: 700;
+    color: #e3115d;
+    text-transform: uppercase;
+}
+.intro > div {
+    border: 5px #ffffffc4 solid;
+}
+.display-5 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+#wset {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(236,238,240,1) 52%, rgba(236,238,240,1) 100%);
+}
+#wset article:first-of-type {
+    background-color: white;
+    font-size: 1.5em;
+}
+#wset article:nth-of-type(2) {
+    background-color: #eceef0;
+}
+#formationvin article:first-of-type {
+    background-color: #fe0036;
+    color: white;
+}
+#formationvin article:nth-of-type(2) {
+    background-color: #115daa;
+    color: white;
+}
+#formationvin article:nth-of-type(3) {
+    background-color: #229654;
+    color: white;
+}
+#formationspiritueux article {
+    background-color: white;
+}
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+footer a:hover, footer a svg:hover {
+    color: #d7dadc!important;
+    text-decoration: none;
+}
+
+@media(min-width: 769px) {
+/* ordinateurs */
+    #wset {
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(236,238,240,1) 52%, rgba(236,238,240,1) 100%);
+    }
+    #formationvin article {
+    min-height: 540px;
+}
+}
+@media(max-width: 767px) {
+/* ordinateurs */
+    #wset article {
+        width: 100%;
+    }
+}
+/*Couleurs
+    rose : #e3115d;
+    gris : #263238;
+    gris clair : #d7dadc;
+*/
